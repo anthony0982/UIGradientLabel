@@ -13,6 +13,7 @@
 		856135391A6330EB00CFA9F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856135381A6330EB00CFA9F8 /* Images.xcassets */; };
 		8561353C1A6330EB00CFA9F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8561353A1A6330EB00CFA9F8 /* LaunchScreen.xib */; };
 		856135481A6330EB00CFA9F8 /* UIGradientLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856135471A6330EB00CFA9F8 /* UIGradientLabelDemoTests.swift */; };
+		856135521A63313300CFA9F8 /* UIGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856135511A63313300CFA9F8 /* UIGradientLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		856135411A6330EB00CFA9F8 /* UIGradientLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGradientLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		856135461A6330EB00CFA9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856135471A6330EB00CFA9F8 /* UIGradientLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientLabelDemoTests.swift; sourceTree = "<group>"; };
+		856135511A63313300CFA9F8 /* UIGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradientLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,17 +84,18 @@
 				856135351A6330EB00CFA9F8 /* Main.storyboard */,
 				856135381A6330EB00CFA9F8 /* Images.xcassets */,
 				8561353A1A6330EB00CFA9F8 /* LaunchScreen.xib */,
-				8561352F1A6330EB00CFA9F8 /* Supporting Files */,
+				8561352F1A6330EB00CFA9F8 /* UIGradientLabel */,
+				856135301A6330EB00CFA9F8 /* Info.plist */,
 			);
 			path = UIGradientLabelDemo;
 			sourceTree = "<group>";
 		};
-		8561352F1A6330EB00CFA9F8 /* Supporting Files */ = {
+		8561352F1A6330EB00CFA9F8 /* UIGradientLabel */ = {
 			isa = PBXGroup;
 			children = (
-				856135301A6330EB00CFA9F8 /* Info.plist */,
+				856135511A63313300CFA9F8 /* UIGradientLabel.swift */,
 			);
-			name = "Supporting Files";
+			name = UIGradientLabel;
 			sourceTree = "<group>";
 		};
 		856135441A6330EB00CFA9F8 /* UIGradientLabelDemoTests */ = {
@@ -214,6 +217,7 @@
 			files = (
 				856135341A6330EB00CFA9F8 /* ViewController.swift in Sources */,
 				856135321A6330EB00CFA9F8 /* AppDelegate.swift in Sources */,
+				856135521A63313300CFA9F8 /* UIGradientLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
