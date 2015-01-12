@@ -7,7 +7,7 @@ Gradient Label is tested on iOS8. Written in SWIFT.
 
 ## Installation
 
-Simply add the file UIGradientLabel.swift in your project and you are ready to go.
+Simply add the file **UIGradientLabel.swift** in your project and you are ready to go.
 
 *Install via CocoaPods is coming soon.*
 
@@ -48,7 +48,7 @@ Released under the [MIT license](LICENSE).
 [@Alexbtlv](https://twitter.com/Alexbtlv)
 
 
-## By me a beer
+## Buy me a beer
 
 [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=alexander%40postys%2eco&lc=US&item_name=Alexander%20Batalov&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest)
 
