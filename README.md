@@ -48,4 +48,10 @@ Released under the [MIT license](LICENSE).
 [@Alexbtlv](https://twitter.com/Alexbtlv)
 
 
+## By me a beer
+
+[Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=alexander%40postys%2eco&lc=US&item_name=Alexander%20Batalov&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest)
+
+Every single donated penny will be mindfully invested in my startup, many thanks. 
+
 
