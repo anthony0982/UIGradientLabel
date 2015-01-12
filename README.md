@@ -39,12 +39,12 @@ view.addSubview(grayLabel)
 ## Example
 ![Example](https://github.com/alexbtlv/UIGradientLabel/blob/master/UIGradientLabel_example.png)
 
-## Liscense
+## License
 
 Released under the [MIT license](LICENSE).
 
 
-## Contacs
+## Contacts
 [@Alexbtlv](https://twitter.com/Alexbtlv)
 
 
