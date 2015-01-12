@@ -1,8 +1,15 @@
-# UIGradientLabel
+# UIGradientLabel v 0.1
 Custom UILabel subclass with gradient background.
 
+![Screenshot](https://github.com/alexbtlv/UIGradientLabel/blob/master/UIGradientLabel_screenshot.png)
 
 Gradient Label is tested on iOS8. Written in SWIFT.
+
+## Installation
+
+Simply add the file UIGradientLabel.swift in your project
+
+*Pod UIGradientLabel is coming soon.*
 
 ## Usage
 
@@ -32,8 +39,12 @@ view.addSubview(grayLabel)
 
 ```
 ## Example
+![Example](https://github.com/alexbtlv/UIGradientLabel/blob/master/UIGradientLabel_example.png)
 
-## Installation
+## Liscense
 
-Simply add the file UIGradientLabel.swift in your project
+Released under the [MIT license](LICENSE).
+
+
+
 
