@@ -32,14 +32,27 @@ class ViewController: UIViewController {
         
         view.addSubview(pinkLabel)
         
-        let yellowLabel = UIGradientLabel(frame: CGRect(x: 0, y: 320, width: self.view.bounds.width, height: 70))
-        yellowLabel.text = "UIGradientLabel"
-        yellowLabel.fromColor = UIColor(red: 255/255, green: 219/255, blue: 76/255, alpha: 1)
-        yellowLabel.toColor = UIColor(red: 255/255, green: 205/255, blue: 102/255, alpha: 1)
-        yellowLabel.textColor = UIColor.blackColor()
-        yellowLabel.font = UIFont(name: "Helvetica neue", size: 25)
+        // Inittialize gradient label like regulal label
+        let grayLabel = UIGradientLabel(frame: CGRect(x: 0, y: 320, width: self.view.bounds.width, height: 70))
         
-        view.addSubview(yellowLabel)
+        // Set text
+        grayLabel.text = "UIGradientLabel"
+        
+        // By default background color is UIColor.clearColor() to set gradient please apply fromColor ( UIColor value )
+        grayLabel.fromColor = UIColor(red: 43/255, green: 43/255, blue: 43/255, alpha: 1)
+        
+        // Set toColor Value
+        grayLabel.toColor = UIColor(red: 74/255, green: 74/255, blue: 74/255, alpha: 1)
+        
+        // By default GradientOrientation is set to .Vertical you can choose between .Horizontal or .Vertical if you want like so
+        grayLabel.gradientOrientation = .Horizontal
+        
+        // Set text color and font as usual
+        grayLabel.textColor = UIColor.whiteColor()
+        grayLabel.font = UIFont(name: "Helvetica neue", size: 25)
+        
+        // When you are ready to go just add it to its parrent view        
+        view.addSubview(grayLabel)
         
         let blueLabel = UIGradientLabel(frame: CGRect(x: 0, y: 420, width: self.view.bounds.width, height: 70))
         blueLabel.text = "UIGradientLabel .Horizontal"
