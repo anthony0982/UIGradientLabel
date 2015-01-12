@@ -7,9 +7,9 @@ Gradient Label is tested on iOS8. Written in SWIFT.
 
 ## Installation
 
-Simply add the file UIGradientLabel.swift in your project
+Simply add the file UIGradientLabel.swift in your project and you are ready to go.
 
-*Pod UIGradientLabel is coming soon.*
+*Install via CocoaPods is coming soon.*
 
 ## Usage
 
@@ -21,10 +21,8 @@ let grayLabel = UIGradientLabel(frame: CGRect(x: 0, y: 320, width: self.view.bou
 // Set text
 grayLabel.text = "UIGradientLabel"
 
-// By default background color is UIColor.clearColor() to set gradient please apply fromColor ( UIColor value )
+// By default background color is UIColor.clearColor() to set gradient please apply fromColor, toColor ( UIColor value )
 grayLabel.fromColor = UIColor(red: 43/255, green: 43/255, blue: 43/255, alpha: 1)
-
-// Set toColor Value
 grayLabel.toColor = UIColor(red: 74/255, green: 74/255, blue: 74/255, alpha: 1)
 
 // By default GradientOrientation is set to .Vertical you can choose between .Horizontal or .Vertical if you want to
@@ -45,6 +43,9 @@ view.addSubview(grayLabel)
 
 Released under the [MIT license](LICENSE).
 
+
+## Contacs
+[@Alexbtlv](https://twitter.com/Alexbtlv)
 
 
 
