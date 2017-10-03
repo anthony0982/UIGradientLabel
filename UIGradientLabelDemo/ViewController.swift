@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         orangeLabel.text = "UIGradientLabel"
         orangeLabel.fromColor = UIColor(red: 255/255, green: 149/255, blue: 0/255, alpha: 1)
         orangeLabel.toColor = UIColor(red: 255/255, green: 94/255, blue: 58/255, alpha: 1)
-        orangeLabel.textColor = UIColor.whiteColor()
+        orangeLabel.textColor = UIColor.white
         orangeLabel.font = UIFont(name: "Helvetica neue", size: 25)
         
         view.addSubview(orangeLabel)
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         pinkLabel.text = "UIGradientLabel"
         pinkLabel.fromColor = UIColor(red: 255/255, green: 94/255, blue: 58/255, alpha: 1)
         pinkLabel.toColor = UIColor(red: 255/255, green: 42/255, blue: 104/255, alpha: 1)
-        pinkLabel.textColor = UIColor.whiteColor()
+        pinkLabel.textColor = UIColor.white
         pinkLabel.font = UIFont(name: "Helvetica neue", size: 25)
         
         view.addSubview(pinkLabel)
@@ -39,7 +39,10 @@ class ViewController: UIViewController {
         grayLabel.text = "UIGradientLabel"
         
         // By default background color is UIColor.clearColor() to set gradient please apply fromColor ( UIColor value )
-        grayLabel.fromColor = UIColor(red: 43/255, green: 43/255, blue: 43/255, alpha: 1)
+        //grayLabel.fromColor = UIColor(red: 43/255, green: 43/255, blue: 43/255, alpha: 1)
+        
+        //Now you can input your color data using single HEX string
+        grayLabel.fromColor = UIColor(rgba: "#2B2B2B")
         
         // Set toColor Value
         grayLabel.toColor = UIColor(red: 74/255, green: 74/255, blue: 74/255, alpha: 1)
@@ -48,7 +51,7 @@ class ViewController: UIViewController {
         grayLabel.gradientOrientation = .Horizontal
         
         // Set text color and font as usual
-        grayLabel.textColor = UIColor.whiteColor()
+        grayLabel.textColor = UIColor.white
         grayLabel.font = UIFont(name: "Helvetica neue", size: 25)
         
         // When you are ready to go just add it to its parrent view        
@@ -59,7 +62,7 @@ class ViewController: UIViewController {
         blueLabel.fromColor = UIColor(red: 29/255, green: 119/255, blue: 239, alpha: 1)
         blueLabel.toColor = UIColor(red: 129/255, green: 243/255, blue: 253/255, alpha: 1)
         blueLabel.gradientOrientation = .Horizontal
-        blueLabel.textColor = UIColor.whiteColor()
+        blueLabel.textColor = UIColor.white
         blueLabel.font = UIFont(name: "Helvetica neue", size: 25)
         
         view.addSubview(blueLabel)

@@ -32,6 +32,9 @@ grayLabel.gradientOrientation = .Horizontal
 grayLabel.textColor = UIColor.whiteColor()
 grayLabel.font = UIFont(name: "Helvetica neue", size: 25)
 
+//Also you can use single HEX string to provide color
+grayLabel.fromColor = UIColor(rgba: "#2B2B2B")
+
 // When you are ready to go just add it to its parrent view        
 view.addSubview(grayLabel)
 
